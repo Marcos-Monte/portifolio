@@ -15,6 +15,7 @@ export default function Projects() {
       <Header />
       <section className={`${styles.container} limit`}>
         <h1 className={styles.title}>Portifólio</h1>
+        <div className={styles.linha}></div>
         <div className={styles.projects}>
           <Card
             subtitle="Página Institucional"

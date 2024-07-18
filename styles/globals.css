@@ -8,6 +8,7 @@
   font-style: normal;
   color: var(--primary-color);
   background-color: var(--background);
+  line-height: 1.8rem;
 }
 
 :root {
