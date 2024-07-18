@@ -1,6 +1,8 @@
 .header {
   width: 100%;
   border-bottom: 0.3em solid var(--secondary-color);
+  position: fixed;
+  z-index: 2;
 }
 
 .nav {

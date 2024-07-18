@@ -1,7 +1,7 @@
 .container {
   width: 100%;
-  min-height: 783px;
-  padding: 6em 0;
+  /* min-height: 783px; */
+  padding: 12em 0 6em 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -32,4 +32,11 @@
 /* Hover */
 .title:hover ~ .linha {
   background-color: var(--prom);
+}
+
+/* Media */
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 16em 0 6em 0;
+  }
 }

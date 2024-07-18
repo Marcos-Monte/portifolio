@@ -23,6 +23,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
                 width="70"
                 height="70"
+                alt="Logo HTML"
               />
 
               <Image
@@ -30,6 +31,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
                 width="70"
                 height="70"
+                alt="Logo CSS"
               />
 
               <Image
@@ -37,6 +39,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                 width="70"
                 height="70"
+                alt="Logo REACT"
               />
 
               <Image
@@ -44,6 +47,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
                 width="70"
                 height="70"
+                alt="Logo JAVASCRIPT"
               />
 
               <Image
@@ -51,6 +55,7 @@ export default function Home() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"
                 width="70"
                 height="70"
+                alt="Logo NODEJS"
               />
             </div>
 

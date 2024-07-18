@@ -22,6 +22,7 @@
 
 html {
   min-width: 280px;
+  height: 100dvh;
 }
 
 .limit {

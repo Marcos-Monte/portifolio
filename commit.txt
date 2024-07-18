@@ -1,0 +1,3 @@
+fix: adicionado a propriedade 'alt' em todas os componentes 'Image'
+
+style: componente 'Header' agora está fixo na tela e as paginas foram ajustadas por meio do 'padding'
