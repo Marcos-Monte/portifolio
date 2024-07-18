@@ -9,11 +9,11 @@ export default function Header(props) {
         <Link className={styles.link} href="/">
           Home
         </Link>
-        <Link className={styles.link} href="/about">
-          Sobre
-        </Link>
         <Link className={styles.link} href="/projects">
           Projetos
+        </Link>
+        <Link className={styles.link} href="/contacts">
+          Contatos
         </Link>
       </nav>
     </header>

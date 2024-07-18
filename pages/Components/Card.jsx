@@ -9,7 +9,11 @@ export default function Card(props) {
 
       <h2 className={styles.cardTitle}>{props.title}</h2>
 
-      <Image className={styles.cardImage} src={props.image} />
+      <Image
+        className={styles.cardImage}
+        src={props.image}
+        alt={props.subtitle}
+      />
 
       <h3 className={styles.codeTitle}>Links</h3>
 

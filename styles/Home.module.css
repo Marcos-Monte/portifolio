@@ -91,7 +91,7 @@
   margin: 0 auto;
   border-radius: 50%;
   background-color: var(--background-components);
-  margin: 0.5em 0 2em 0;
+  margin: 1em 0 2em 0;
 }
 
 .text {
@@ -101,7 +101,6 @@
 /* Hover */
 .button:hover {
   background-color: var(--prom);
-  transition: ease;
 }
 
 .photo:hover {

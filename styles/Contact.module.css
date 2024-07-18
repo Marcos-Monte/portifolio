@@ -1,0 +1,28 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hover */
+.link:hover {
+  color: var(--prom);
+}
+
+/* Media */
+@media screen and (max-width: 400px) {
+  .link {
+    width: 100%;
+  }
+  .name {
+    font-size: 16px;
+  }
+}

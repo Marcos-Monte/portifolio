@@ -9,6 +9,7 @@
   color: var(--primary-color);
   background-color: var(--background);
   line-height: 1.8rem;
+  transition: ease;
 }
 
 :root {

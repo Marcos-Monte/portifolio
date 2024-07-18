@@ -1,6 +1,16 @@
 .container {
   width: 100%;
   min-height: 783px;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.redes,
+.contacts {
+  width: 100%;
   padding: 6em 0;
   display: flex;
   justify-content: space-evenly;
@@ -21,12 +31,20 @@
   margin: 1em 0 2em 0;
 }
 
-.projects {
+.box {
+  margin: 2em 0;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2em;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  margin: 2em 0;
 }
 
 /* Hover */
