@@ -19,11 +19,11 @@ export default function Card(props) {
 
       <div className={styles.code}>
         <a className={styles.anchor} href={props.github} target="_blank">
-          <i class="bi bi-github"></i>
+          <i className="bi bi-github"></i>
         </a>
 
         <a className={styles.anchor} href={props.vercel} target="_blank">
-          <i class="bi bi-display"></i>
+          <i className="bi bi-display"></i>
         </a>
       </div>
     </div>

@@ -59,7 +59,7 @@ export default function Home() {
               href="/Curriculo-Marcos Monte.pdf"
               target="_blank"
             >
-              <i class="bi bi-download"></i>
+              <i className="bi bi-download"></i>
               Download CV
             </a>
           </div>
