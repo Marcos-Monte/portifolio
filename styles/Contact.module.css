@@ -13,8 +13,9 @@
 }
 
 /* Hover */
-.link:hover {
+.link > a:hover ~ .name {
   color: var(--prom);
+  text-shadow: 0px 0px 10px var(--background-components);
 }
 
 /* Media */
