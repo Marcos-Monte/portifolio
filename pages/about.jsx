@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <Header />
-      <section className={`container limit`}>
+      <section className={`page limit`}>
         <nav className={`${styles.nav} limit`}>
           <Link className={styles.link} href="">
             <i class="bi bi-linkedin"></i>

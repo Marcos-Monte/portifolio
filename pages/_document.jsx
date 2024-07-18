@@ -10,6 +10,10 @@ export default function Document() {
         />
         <meta name="description" content="Portifólio de Marcos Monte" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="icon"
+          href="https://img.icons8.com/?size=100&id=vIUQ63hvBJFD&format=png&color=000000"
+        />
         <title>Marcos Monte</title>
       </Head>
       <body>

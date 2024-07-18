@@ -1,8 +1,6 @@
 .header {
   width: 100%;
-  position: fixed;
-  border: none;
-  box-shadow: 0px 12px 40px var(--secondary-color);
+  border-bottom: 0.3em solid var(--secondary-color);
 }
 
 .nav {

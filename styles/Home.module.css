@@ -1,16 +1,42 @@
+.container {
+  width: 100%;
+  min-height: 783px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .description {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  background-color: transparent;
 }
 
 .title {
   font-size: 42px;
+  background-color: transparent;
 }
 
 .subtitle {
   font-size: 30px;
+  background-color: transparent;
+}
+
+.tecnologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5em;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.tech {
+  background-color: transparent;
+  margin: 0.3em 0;
 }
 
 .button {
@@ -22,6 +48,7 @@
   background-color: var(--background-components);
   font-size: 18px;
   margin-top: 1em;
+  text-decoration: none;
 }
 
 .button > i {
@@ -46,6 +73,10 @@
   opacity: 1;
 }
 
+.tech:hover {
+  padding-top: 0.3em;
+}
+
 /* Media */
 @media screen and (max-width: 400px) {
   .title {
@@ -57,5 +88,8 @@
   .photo {
     width: 180px;
     height: 180px;
+  }
+  .tech {
+    width: 45px;
   }
 }
