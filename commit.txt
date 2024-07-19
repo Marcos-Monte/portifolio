@@ -1,3 +1,6 @@
-fix: adicionado a propriedade 'alt' em todas os componentes 'Image'
+feat: Importação dos módulos useState, useEffect e useRouter
 
-style: componente 'Header' agora está fixo na tela e as paginas foram ajustadas por meio do 'padding'
+feat: Atribuída lógica de variável de estado nos Links. O elemento 'Link' que estiver selecionado irá receber uma estilização própria
+
+style: componente Header fica com estilização própria quando um dos Links foram selecionados
+
