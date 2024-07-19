@@ -1,8 +1,7 @@
-```feat: Importação dos módulos useState, useEffect e useRouter
+feat: menu implementado à partir de 500px de resolução
 
-feat: Atribuída lógica de variável de estado nos Links. O elemento 'Link' que estiver selecionado irá receber uma estilização própria
+feat: implementada lógica de clique para fazer opções do meno aparecerem e desaparecerem conforme o clique
 
-style: componente Header fica com estilização própria quando um dos Links foram selecionados
+style: ajuste nas 'media queries' das páginas. Nenhuma mais precisa aumentar o padding por conta do Menu
 
-```
-
+fix: erro na importação de imagens 'Devicon'. Foi adicionado ao style do componente 'width e height' do tamanho das imagens importadas direto no html

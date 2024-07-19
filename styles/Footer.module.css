@@ -5,7 +5,7 @@
   padding: 1em 0;
   background-color: var(--background);
   border: none;
-  box-shadow: 0px 12px 40px var(--secondary-color);
+  box-shadow: 0px 0px 40px var(--secondary-color);
   font-weight: bold;
 }
 

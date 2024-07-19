@@ -1,8 +1,8 @@
 .header {
   width: 100%;
-  border-bottom: 0.3em solid var(--secondary-color);
+  border-bottom: 0.3em solid var(--background-components);
   position: fixed;
-  z-index: 2;
+  z-index: 1;
 }
 
 .nav {
@@ -27,21 +27,33 @@
   color: var(--background-components);
 }
 
+/* Visibility */
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
 /* Hover */
 .link:hover {
   color: var(--prom);
 }
 
 /* Media */
-@media screen and (max-width: 300px) {
+
+@media screen and (min-width: 501px) {
+  .nav {
+    visibility: visible;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .nav {
     flex-direction: column;
-    gap: 2em;
-  }
-  .link {
-    width: 100%;
-  }
-  .header {
-    box-shadow: 0px 6px 10px var(--secondary-color);
+    box-shadow: 0px 0px 40px var(--prom);
   }
 }

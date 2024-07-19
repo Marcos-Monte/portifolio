@@ -3,8 +3,17 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 import styles from "@/styles/Header.module.css";
+import Menu from "./Menu";
 
 export default function Header() {
+  const visible = "visible";
+  const hidden = "hidden";
+
+  const [visibility, setVisibility] = useState(false);
+  function handleMenu() {
+    setVisibility(!visibility);
+  }
+
   // variável router recebe as funções do módulo useRouter()
   const router = useRouter();
   // Váriável de estado
@@ -24,7 +33,12 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <nav className={`${styles.nav} limit`}>
+      <Menu funcao={handleMenu} />
+
+      <nav
+        className={`${styles.nav} limit 
+        ${styles[visibility === false ? hidden : visible]}`}
+      >
         <Link
           className={`${styles.link} ${
             selectedLink === 0 ? styles.selected : ""
