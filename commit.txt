@@ -1,6 +1,8 @@
-feat: Importação dos módulos useState, useEffect e useRouter
+```feat: Importação dos módulos useState, useEffect e useRouter
 
 feat: Atribuída lógica de variável de estado nos Links. O elemento 'Link' que estiver selecionado irá receber uma estilização própria
 
 style: componente Header fica com estilização própria quando um dos Links foram selecionados
+
+```
 
