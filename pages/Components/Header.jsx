@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import styles from "@/styles/Header.module.css";
 import Menu from "./Menu";
 
-export default function Header() {
+export default function Header(props) {
   const visible = "visible";
   const hidden = "hidden";
 
@@ -63,6 +63,9 @@ export default function Header() {
         >
           Contatos
         </Link>
+        <button className={styles.buttonTheme} onClick={props.funcao}>
+          <i className={`bi bi-circle-fill`}></i>
+        </button>
       </nav>
     </header>
   );

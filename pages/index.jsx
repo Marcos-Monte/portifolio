@@ -2,14 +2,12 @@ import Image from "next/image";
 
 import Photo from "@/public/img/perfil.jpg";
 import Footer from "./Components/Footer";
-import Header from "./Components/Header";
 
 import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <section className={`${styles.container} limit`}>
         <div className={styles.card}>
           <Image className={styles.photo} src={Photo} alt="Foto de Perfil" />

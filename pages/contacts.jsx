@@ -1,14 +1,11 @@
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import Header from "./Components/Header";
 
 import styles from "@/styles/Contacts.module.css";
 
 export default function Contacts() {
   return (
     <>
-      <Header />
-
       <section className={`${styles.container} limit`}>
         <div className={`${styles.redes}`}>
           <h1 className={styles.title}>Redes</h1>

@@ -27,6 +27,60 @@
   color: var(--background-components);
 }
 
+/* Button Theme */
+.buttonTheme {
+  border: 0.2em solid var(--prom);
+  background-color: var(--primary-color);
+  border-radius: 20px; /* Alterado para um visual mais premium */
+  width: 60px; /* Aumentado para mais espaço */
+  height: 30px; /* Aumentado para mais espaço */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px; /* Adicionado para espaçamento interno */
+  position: relative; /* Necessário para o posicionamento absoluto do ícone */
+  transition: background-color 0.3s ease, border 0.3s ease; /* Transições suaves */
+}
+
+.buttonTheme > i {
+  background-color: transparent;
+  color: var(--prom);
+  border-radius: 50%; /* Tornar o ícone circular */
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; /* Transição suave para a posição */
+  position: absolute; /* Posicionamento absoluto */
+  left: 5px; /* Inicialmente à esquerda */
+}
+
+.buttonTheme.checked {
+  background-color: var(--secondary-color); /* Mudar cor de fundo ao clicar */
+  justify-content: flex-end; /* Mover o conteúdo para a direita */
+}
+
+.buttonTheme.checked > i {
+  transform: translateX(30px); /* Mover o ícone para a direita */
+}
+
+.buttonTheme:hover {
+  border-color: var(
+    --secondary-color
+  ); /* Alterar a cor da borda ao passar o mouse */
+  background-color: var(
+    --background-components
+  ); /* Alterar a cor de fundo ao passar o mouse */
+}
+
+.buttonTheme > i:hover {
+  background-color: var(
+    --secondary-color
+  ); /* Alterar a cor do ícone ao passar o mouse */
+}
+
 /* Visibility */
 .visible {
   visibility: visible;

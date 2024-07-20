@@ -12,12 +12,20 @@
   transition: ease;
 }
 
-:root {
+.dark {
   --background: #212529;
   --primary-color: #ffffff;
   --prom: #28a745;
   --background-components: #1e5631;
   --secondary-color: #adb5bd;
+}
+
+.light {
+  --background: #f8f9fa; /* White for background */
+  --primary-color: #212529; /* Dark grey for primary text */
+  --prom: #2ecc71; /* Same promotional green for consistency */
+  --background-components: #28a745; /* Very light grey for components background */
+  --secondary-color: #495057; /* Darker grey for secondary text */
 }
 
 html {

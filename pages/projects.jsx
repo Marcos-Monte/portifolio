@@ -1,6 +1,5 @@
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
-import Header from "./Components/Header";
 import Thiago from "/public/img/andrade.png";
 import CadastroGestante from "/public/img/cadastro-gestante.png";
 import Clinica from "/public/img/clinica.png";
@@ -12,7 +11,6 @@ import styles from "@/styles/Projects.module.css";
 export default function Projects() {
   return (
     <>
-      <Header />
       <section className={`${styles.container} limit`}>
         <h1 className={styles.title}>Portifólio</h1>
         <div className={styles.linha}></div>

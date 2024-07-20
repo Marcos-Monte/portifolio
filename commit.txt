@@ -1,1 +1,7 @@
-feat: imagem do Menu que aparece em resolução até 500px, é uma rota que envia o usuário para a página principal do portifólio.
+feat: implementada lógica de mudança de 'tema' da aplicação. Usando o módulo createContext da biblioteca React. Header importado para o arquivo principal '_app'. Lógica de váriavel de estado para mudança de temas da aplicação.
+
+feat: adicionado um botão no componente Header que vai importar a função de mudança de temas
+
+style: Criada paleta de cores do tema 'light Mode' da aplicação
+
+style: estilizado efeitos de clique no botão de troca de tema no Header
