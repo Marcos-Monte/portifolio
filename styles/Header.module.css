@@ -11,6 +11,7 @@
   justify-content: space-around;
   align-items: center;
   font-weight: bold;
+  gap: 1em;
 }
 
 .link {
@@ -35,11 +36,9 @@
   width: 60px; /* Aumentado para mais espaço */
   height: 30px; /* Aumentado para mais espaço */
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   cursor: pointer;
   padding: 5px; /* Adicionado para espaçamento interno */
-  position: relative; /* Necessário para o posicionamento absoluto do ícone */
   transition: background-color 0.3s ease, border 0.3s ease; /* Transições suaves */
 }
 
@@ -53,13 +52,6 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease; /* Transição suave para a posição */
-  position: absolute; /* Posicionamento absoluto */
-  left: 5px; /* Inicialmente à esquerda */
-}
-
-.buttonTheme.checked {
-  background-color: var(--secondary-color); /* Mudar cor de fundo ao clicar */
-  justify-content: flex-end; /* Mover o conteúdo para a direita */
 }
 
 .buttonTheme.checked > i {
@@ -79,6 +71,14 @@
   background-color: var(
     --secondary-color
   ); /* Alterar a cor do ícone ao passar o mouse */
+}
+
+.leftSlipButton {
+  justify-content: left !important;
+}
+
+.rightSlipButton {
+  justify-content: right !important; /* Mover o conteúdo para a direita */
 }
 
 /* Visibility */

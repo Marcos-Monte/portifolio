@@ -10,6 +10,7 @@ export default function Header(props) {
   const hidden = "hidden";
 
   const [visibility, setVisibility] = useState(false);
+
   function handleMenu() {
     setVisibility(!visibility);
   }
@@ -63,7 +64,10 @@ export default function Header(props) {
         >
           Contatos
         </Link>
-        <button className={styles.buttonTheme} onClick={props.funcao}>
+        <button
+          className={`${styles.buttonTheme} ${styles[props.styleButton]}`}
+          onClick={props.funcao}
+        >
           <i className={`bi bi-circle-fill`}></i>
         </button>
       </nav>
