@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 
 import "@/styles/globals.css";
 import { useState } from "react";
-import { ThemeProvider } from "./services/Themes";
+import { ThemeProvider } from "../contexts/Themes";
 
 export default function App({ Component, pageProps }) {
   // Para onde a bolinha do botão de troca de temas irá deslizar

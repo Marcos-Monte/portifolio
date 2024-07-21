@@ -1,3 +1,6 @@
+//PS: Página obrigatóriamente precisa ficar fora do diretório 'pages'. Se ficar, vai gerar um erro.
+// Nenhum arquivo que não 'exportar como padrão' (export default) um componente React, pode ficar dentro do diretório 'pages'
+
 // Módulo de configuração de 'contexto'
 import { createContext } from "react";
 

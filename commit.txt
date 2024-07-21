@@ -1,3 +1,1 @@
-feat: lógica de 'deslizamento' do ícone no botão de troca de thema. Quando os estilos forem 'dark mode' ficar a esquerda e no 'light mode' ficar a direita do botão
-
-fix: Ajustes na estilização do componente Menu para melhorar espaçamento entre os links
+fix: Erro de 'build optimization failed'. Devido ao arquivos 'Themes.jsx' estar dentro do diretório 'pages' e não estar 'exporatando como padrão' (export default) um componente React. Solução foi criar um diretório de 'contexts' na pasta raiz da aplicação (fora de 'pages')
