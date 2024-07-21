@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    // Isso permitirá que você use arquivos JavaScript sem exigir a verificação de tipos do TypeScript.
+    "allowJs": true,
+    "checkJs": false,
+    // outras opções de configuração...
     "paths": {
       "@/*": ["./*"]
     }

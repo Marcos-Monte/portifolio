@@ -1,0 +1,21 @@
+.containerType {
+  max-width: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.typeStyle {
+  font-size: 26px;
+  color: #28a745; /*Não tem como usar variaveis, por conta da cor do texto dinamixo ser definida fixamente*/
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media screen and (max-width: 400px) {
+  .typeStyle {
+    font-size: 19.5px;
+    margin-top: 0.5em;
+  }
+}

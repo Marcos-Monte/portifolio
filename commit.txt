@@ -1,1 +1,7 @@
-fix: Erro de 'build optimization failed'. Devido ao arquivos 'Themes.jsx' estar dentro do diretório 'pages' e não estar 'exporatando como padrão' (export default) um componente React. Solução foi criar um diretório de 'contexts' na pasta raiz da aplicação (fora de 'pages')
+feat: Instalação da Biblioteca 't-writer.js' que possibilitiva que a aplicação escreva textos de forma dinamicas na tela do navegador.
+
+feat: Implementada lógica que permite usar arquivos JS sem exigir a verificação de tupos (TS)
+
+feat: Criação de componete 'Typewriter' que vai ser um texto dinâmico em Loop. Configurado usando a 'biblioteca t-wirter.js' e estilizado
+
+fix: Typewriter tem uma parte de texto fixo 'Desenvolvedor' e as tecnologias ficam aparecendo em Loop

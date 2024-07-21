@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Photo from "@/public/img/perfil.jpg";
 import Footer from "./Components/Footer";
+import Subtitle from "./Components/Typewriter";
 
 import styles from "@/styles/Home.module.css";
 
@@ -14,7 +15,9 @@ export default function Home() {
 
           <div className={`${styles.description}`}>
             <h1 className={styles.title}>Marcos Monte</h1>
-            <h2 className={styles.subtitle}>Desenvolvedor Web</h2>
+
+            <Subtitle style={styles.subtitle} />
+
             <div className={styles.tecnologies}>
               <Image
                 className={styles.tech}
