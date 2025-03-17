@@ -6,6 +6,8 @@ import "@/styles/globals.css";
 import { useState } from "react";
 import { ThemeProvider } from "../contexts/Themes";
 
+import Modal from "./Modal.jsx";
+
 export default function App({ Component, pageProps }) {
   // Para onde a bolinha do botão de troca de temas irá deslizar
   const rightMode = "rightSlipButton";
@@ -27,6 +29,9 @@ export default function App({ Component, pageProps }) {
     setTheme(!theme);
   }
 
+  // Váriavel de Estado (Modal)
+  const [isModalOpen, setIsModalOpen] = useState(true);
+
   return (
     <>
       <Head>
@@ -44,6 +49,8 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </div>
       </ThemeProvider>
+
+      <Modal isOpen={isModalOpen}  />
     </>
   );
 }
