@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+        "source": "/(.*)",
+        "destination": "https://marcosmontedev.vercel.app/:path*",
+        "permanent": true
+        }
+    ]
+}
