@@ -72,8 +72,8 @@ html {
 }
 
 .modal-content {
-  height: 30%;
-  width: 50%;
+  max-width: 50rem;
+  max-height: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
